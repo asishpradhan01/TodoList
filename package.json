@@ -1,6 +1,6 @@
 {
-  "name": "vite-project",
   "homepage": "https://github.com/asishpradhan01/TodoList/",
+  "name": "vite-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,6 @@
     "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "gh-pages-clean": "gh-pages-clean",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
